@@ -12,7 +12,7 @@
             lon = position.coords.longitude;
             lat = position.coords.latitude;
 
-            const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=bb803030536d8b72f97a887d0a39f14f&units=imperial`
+            const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=&units=imperial`
 
             fetch(api)
             .then(response => {
